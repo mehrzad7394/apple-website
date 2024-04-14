@@ -1,5 +1,8 @@
+import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Hightlights from "./components/Hightlights";
+import HowItWorks from "./components/HowItWorks";
 import Model from "./components/Model";
 import Navbar from "./components/Navbar";
 
@@ -9,7 +12,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <Hightlights />
-      <Model/>
+      <Model />
+      <Features />
+      <HowItWorks />
+      <Footer />
     </main>
   );
 };
